@@ -23,7 +23,8 @@ public class Ejecutor {
                 0.5, usuario);
         
         factura.calcularValorFactura();
-        
+        System.out.printf("%s\n", factura);
+        /*
         System.out.printf("Factura de Teléfono\n" +
                 "Nombre: %s\n" +
                 "Apellido: %s\n" +
@@ -39,5 +40,6 @@ public class Ejecutor {
                 factura.obtenerMinutosMes(),
                 factura.obtenerValorMinuto(),
                 factura.obtenerValorFactura());
+        /*
     }
 }
