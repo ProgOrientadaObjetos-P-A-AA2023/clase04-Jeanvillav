@@ -68,7 +68,7 @@ public class FacturaTelefonica {
     @Override
  public String toString(){
        
-     String mensaje = String format("Factura de Teléfono\n" +
+     String mensaje = String.format("Factura de Teléfono\n" +
                 "Nombre: %s\n" +
                 "Apellido: %s\n" +
                 "Identificación: %s\n" +
@@ -78,7 +78,7 @@ public class FacturaTelefonica {
                 "Valor a cancelar: %.2f\n",
                //obtenerUsuario().obtenerNombre(),
              usuario.obtenerNombre(),
-                usuario.obtenerApellido(),
+                obtenerUsuario().obtenerApellido(),
                 obtenerUsuario().obtenerIdentificacion(),
                 obtenerNumeroTelefono(),
                 obtenerMinutosMes(),
